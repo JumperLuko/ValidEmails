@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- <meta name="language" content="pt-br,en-us"> -->
+		<title>Envie seu Email</title>
+		<!-- <link rel="icon" type="image/png" href=""> -->
+		<link rel="stylesheet" type="text/css" href="responsive_flex-grid.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- <script type="text/javascript" src="jquery-3.3.1.min.js"></script> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Jumper_Luko, jumper.luko@gmail.com">
+		<!-- <meta name="theme-color" content="#ffffff"> -->
+		<!-- <meta name="description" content="Descrição do site"> -->
+		<!-- <meta name="robots" content="index, follow"> -->
+		<!-- <meta name="keywords" content="Palavras, chaves, site"> -->
+		<!-- <meta name="rating" content="general"> -->
+		<!-- <meta name="generator" content="Atom,Geany,VSCode...."> -->
+	</head>
+	<body>
+		<script>
+			
+		</script>
+		<div class="fcol-12" style="height: 100vh;width: 100%;overflow: hidden;">
+			<div class="fcol-12 center wrap send sendFilesAnimation" id="sendFilesAnimation">
+				<h2 class="fcol-12 centerH" style="color:#4b4b4b;">Por favor envie seu arquivo com os emails.</h2>
+				<form id="sendFilesForm" action="process.php" method="post">
+					<input type="file" id="file" required/>
+					<button value="Enviar" id="sendFiles" class="sendFiles" onclick="sendInput('sendFilesAnimation')">Enviar</button>
+				</form>
+			</div>
+		</div>
+		<script>
+			var form = document.getElementById("sendFilesForm"), button = document.getElementById("sendFiles");
+			sendFilesForm.onsubmit = function() {
+				return false;
+			}
+			
+			function sendInput(hi){
+				var cantSend = document.forms["sendFilesForm"]["file"].value;
+				if (cantSend == '') {
+					alert("Adicione um arquivo");
+					return;
+				}
+				if ( document.getElementById(hi).classList.contains('sendFilesAnimation'))
+                	document.getElementById(hi).classList.add('sendingFiles');
+					document.getElementById(hi).classList.remove('sendFilesAnimation');
+				setTimeout(function() {
+				form.submit();
+				}, 1000);
+				return false;
+			}
+		</script>
+		<div class="vcol-12" style="height: 5px;background-color:#000000;"></div>
+		<div class="fcol-12 wrap" style="min-height: 100%;">
+			<div class="vcol-6 wrap" style="padding: 30px;">
+				<h2 class="fcol-12">Emails Válidos</h2>
+				<div class="fcol-12"><input type="submit"/></div>
+				<div class="grid" style="grid-auto-rows: 25px;padding: 10px;">
+					<div>email</div>
+					<div>email</div>
+					<div>email</div>
+					<div>email</div>
+					<div>email</div>
+				</div>
+			</div>
+			<div class="vcol-6 wrap" style="padding: 30px;">
+				<h2 class="fcol-12">Emails Inválidos</h2>
+				<div class="grid" style="grid-auto-rows: 25px;padding: 10px;">
+					<div>email</div>
+					<div>email</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
