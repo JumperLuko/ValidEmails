@@ -6,6 +6,7 @@
 		<!-- <link rel="icon" type="image/png" href=""> -->
 		<link rel="stylesheet" type="text/css" href="responsive_flex-grid.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<!-- <script type="text/javascript" src="jquery-3.3.1.min.js"></script> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Jumper_Luko, jumper.luko@gmail.com">
@@ -22,10 +23,10 @@
 		</script>
 		<div class="fcol-12" style="height: 100vh;width: 100%;overflow: hidden;">
 			<div class="fcol-12 center wrap send sendFilesAnimation" id="sendFilesAnimation">
-				<h2 class="fcol-12 centerH" style="color:#4b4b4b;">Por favor envie seu arquivo com os emails.</h2>
-				<form id="sendFilesForm" action="process.php" method="post">
-					<input type="file" id="file" required/>
-					<button value="Enviar" id="sendFiles" class="sendFiles" onclick="sendInput('sendFilesAnimation')">Enviar</button>
+				<h2 class="fcol-12 centerH centerText" style="color:#4b4b4b;">Por favor envie seu arquivo com os emails.</h2>
+				<form id="sendFilesForm" action="process.php" method="post" class="flex center wrap">
+					<input type="file" id="file" required style="padding:10px;"/>
+					<button value="Enviar" id="sendFiles" class="sendFiles" onclick="sendInput('sendFilesAnimation')">Processar</button>
 				</form>
 			</div>
 		</div>
@@ -51,11 +52,18 @@
 			}
 		</script>
 		<div class="vcol-12" style="height: 5px;background-color:#000000;"></div>
+
+
 		<div class="fcol-12 wrap" style="min-height: 100%;">
-			<div class="vcol-6 wrap" style="padding: 30px;">
-				<h2 class="fcol-12">Emails Válidos</h2>
-				<div class="fcol-12"><input type="submit"/></div>
-				<div class="grid" style="grid-auto-rows: 25px;padding: 10px;">
+			<div class="vcol-6 wrap emails saveFilesAnimation" id="saveFilesAnimation">
+				<h2 class="fcol-12 centerH CenterText" style="color:#4b4b4b;">Emails Válidos</h2>
+				<div class="fcol-12 centerH">
+					<form id="saveFilesForm" class="saveFilesForm" action="save.php" method="post">
+						<input type="hidden" id="emailsValidos"/>
+						<button id="saveFiles" class="saveFiles" onclick="saveInput('saveFilesAnimation')">Salvar</button>
+					</form>
+				</div>
+				<div class="grid">
 					<div>email</div>
 					<div>email</div>
 					<div>email</div>
@@ -63,14 +71,48 @@
 					<div>email</div>
 				</div>
 			</div>
-			<div class="vcol-6 wrap" style="padding: 30px;">
-				<h2 class="fcol-12">Emails Inválidos</h2>
-				<div class="grid" style="grid-auto-rows: 25px;padding: 10px;">
+			<script>
+				var form = document.getElementById("saveFilesForm"), button = document.getElementById("saveFiles");
+				saveFilesForm.onsubmit = function() {
+					return false;
+				}
+				
+				function saveInput(ho){
+					if ( document.getElementById(ho).classList.contains('saveFilesAnimation'))
+						document.getElementById(ho).classList.add('savingFiles');
+						document.getElementById(ho).classList.remove('saveFilesAnimation');
+					setTimeout(function() {
+					form.submit();
+					}, 1000);
+					return false;
+				}
+			</script>
+
+			<div class="vcol-6 wrap emails CenterText">
+				<h2 class="fcol-12 centerH" style="color:#4b4b4b;">Emails Inválidos</h2>
+				<div class="grid">
 					<div>email</div>
 					<div>email</div>
 				</div>
 			</div>
 		</div>
-
+		<footer class="fcol-12" style="height:200px;">
+			<div class="fcol-4 wrap">
+				<img class="vcol-12" src="#" alt="logo" height="100px"/>
+				<div class="vcol-12">Sou um site para filtrar emails</div>
+			</div>
+			<div class="vcol-4">
+				<h3>Newsletter</h3>
+				<form>
+					<input type="text" id="nome"/>
+					<input type="email" id="email"/><br/>
+					<input type="submit"/>
+				</form>
+			</div>
+			<div class="vcol-4">
+				<h3>Contato</h3>
+				<p>Não temos</p>
+			</div>
+		</footer>
 	</body>
 </html>

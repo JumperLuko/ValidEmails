@@ -1,4 +1,6 @@
-div.send > form > button.sendFiles{
+body{font-family: 'Roboto', sans-serif;}
+
+div.send > form > button.sendFiles, form.saveFilesForm > button.saveFiles{
     background: #ffffff;
     color: #00bf79;
     border: 3px solid #00bf79;
@@ -6,18 +8,18 @@ div.send > form > button.sendFiles{
     padding:10px 20px;
     font-weight: bold;
     font-size: 30px;
-}div.send > form > button:hover{
+}div.send > form > button.sendFiles:hover, form.saveFilesForm > button.saveFiles:hover{
     transition: all 0.1s linear;
     color:#ffffff;
     border: 3px solid #ffffff;
     background: #00bf79;
 }
-div.sendingFiles{
+div.sendingFiles,div.savingFiles{
     transition: all 0.1s linear;
     animation: sendingButtom;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-}div.sendingFiles > form > button.sendFiles{
+}div.sendingFiles > form > button.sendFiles, div.savingFiles > button.saveFiles{
     transition: all 0.1s linear;
     color:#ffffff;
     border: 3px solid #ffffff;
@@ -30,4 +32,25 @@ div.sendingFiles{
     25%{transform: scale(0.2);}
     50%{transform: scale(0.2) translate(1000vw);}
     100%{transform: scale(0.2) translate(500vw);}
+}
+
+div.emails{
+    padding: 30px;
+}
+div.emails > div.grid{
+    border: solid #b2b2b2;
+    border-width: 0 0 1px 0;
+    grid-auto-rows: 40px;
+    padding: 10px 0 0 0;
+}
+div.emails > div.grid > div{
+    border: solid #b2b2b2;
+    border-width: 1px 0 0 0;
+    display:flex;align-items: center;
+    height: 100%;
+}
+
+footer > div{
+    padding:20px;
+    color:#808080;
 }
