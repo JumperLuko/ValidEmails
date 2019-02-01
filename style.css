@@ -49,3 +49,21 @@ footer > div{
     padding:20px;
     color:#808080;
 }
+footer form > div > input{
+    border-radius:10px;
+    margin: 10px;
+    padding: 10px;
+}
+footer form > div > input[type="text"],footer form > div > input[type="email"]{
+    border: none;
+    background: #f1f1f1;
+}
+footer form > div > input[type="submit"]{
+    border: #00bf79 2px solid;
+    background: #ffffff;
+    color: #005536;
+}footer form > div > input[type="submit"]:active{
+    border: #ffffff 2px transparent;
+    background: #00bf79;
+    color: #ffffff;
+}

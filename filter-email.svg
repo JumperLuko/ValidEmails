@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="256px"
+   height="256px"
+   viewBox="0 0 256 256"
+   enable-background="new 0 0 256 256"
+   xml:space="preserve"
+   sodipodi:docname="filter-email.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata88"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs86" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1040"
+   id="namedview84"
+   showgrid="false"
+   inkscape:zoom="2.6074563"
+   inkscape:cx="166.75658"
+   inkscape:cy="107.70544"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g75" />
+<symbol
+   id="Deleted_Symbol_1_"
+   viewBox="-37 -31 73 61">
+	<polygon
+   fill="#EBEDED"
+   points="36,-31 -37,-31 -37,30 36,30  "
+   id="polygon2" />
+	<polygon
+   display="none"
+   fill="none"
+   points="-37,30 36,30 36,-31 -37,-31  "
+   id="polygon4" />
+</symbol>
+<g
+   id="Deleted_Symbol">
+	<g
+   id="tick">
+		<g
+   id="g75">
+			<g
+   id="g23"
+   style="stroke:#424545;stroke-opacity:1">
+				<g
+   id="g21"
+   style="stroke:#424545;stroke-opacity:1">
+					<path
+   stroke-miterlimit="10"
+   d="M21.833,139.085c-4.375,0-7.921,3.544-7.921,7.919       c0,4.373,3.547,7.922,7.921,7.922"
+   id="path7"
+   stroke="#E7E7E7"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+					<path
+   stroke-miterlimit="10"
+   d="M18.546,139.807c-0.778-1.518-1.216-3.236-1.216-5.055       c0-6.134,4.971-11.104,11.102-11.104c3.065,0,5.843,1.244,7.852,3.253"
+   id="path9"
+   stroke="#E7E7E7"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+					<path
+   stroke-miterlimit="10"
+   d="M33.818,125.043c2.1-5.525,7.445-9.453,13.707-9.453       c8.095,0,14.658,6.563,14.658,14.659c0,2.021-0.409,3.95-1.152,5.702"
+   id="path11"
+   stroke="#E7E7E7"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+					<path
+   stroke-miterlimit="10"
+   d="M61.181,133.714c4.322,0.488,7.702,4.768,7.702,9.975       c0,2.922-1.066,5.554-2.767,7.384"
+   id="path13"
+   stroke="#E7E7E7"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+					<line
+   stroke-miterlimit="10"
+   x1="66.116"
+   y1="151.072"
+   x2="79.851"
+   y2="151.072"
+   id="line15"
+   stroke="#E7E7E7"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+					<path
+   stroke-miterlimit="10"
+   d="M22.76,131.479c-0.107-0.255-0.168-0.534-0.168-0.83       c0-1.18,0.957-2.134,2.135-2.134c0.585,0,1.116,0.232,1.501,0.614"
+   id="path17"
+   stroke="#E7E7E7"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+					<path
+   stroke-miterlimit="10"
+   d="M55.71,126.225c0.303-0.05,0.619-0.047,0.938,0.025       c1.274,0.29,2.067,1.559,1.779,2.83c-0.146,0.629-0.53,1.144-1.037,1.465"
+   id="path19"
+   stroke="#E7E7E7"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+				</g>
+			</g>
+			<g
+   id="g29"
+   style="stroke:#424545;stroke-opacity:1">
+				<path
+   stroke-miterlimit="10"
+   d="M171.511,75.725c1.424-4.995,6.02-8.649,11.469-8.649      c6.588,0,11.93,5.34,11.93,11.928c0,3.037-1.138,5.811-3.009,7.917"
+   id="path25"
+   stroke="#E7E7E7"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+				<path
+   stroke-miterlimit="10"
+   d="M194.52,81.979c3.892,1.289,6.698,4.955,6.698,9.277      c0,5.397-4.375,9.772-9.773,9.772c-3.807,0-7.637,0-10.001,0"
+   id="path27"
+   stroke="#E7E7E7"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+			</g>
+			<path
+   stroke-miterlimit="10"
+   d="M154.865,81.337c2.15-4.179,6.506-7.039,11.531-7.039     c2.684,0,5.177,0.815,7.243,2.213"
+   id="path31"
+   stroke="#E7E7E7"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+			<path
+   fill="none"
+   stroke="#E7E7E7"
+   stroke-miterlimit="10"
+   d="M157.378,96.563c-2.079-2.015-3.485-4.72-3.848-7.747"
+   id="path33" />
+			<path
+   stroke-miterlimit="10"
+   d="M159.076,81.904c0-1.18,0.958-2.136,2.135-2.136"
+   id="path35"
+   stroke="#E7E7E7"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+			<path
+   stroke-miterlimit="10"
+   d="M188.64,74.649c1.142,0.311,1.811,1.485,1.502,2.623"
+   id="path37"
+   stroke="#E7E7E7"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+			<polygon
+   fill="none"
+   stroke="#1B1464"
+   stroke-width="3"
+   stroke-miterlimit="10"
+   points="190.497,195.598 78.512,195.598      78.512,119.741 136.902,64.55 190.472,118.518    "
+   id="polygon39" />
+			<polyline
+   fill="none"
+   stroke="#1B1464"
+   stroke-width="3"
+   stroke-miterlimit="10"
+   points="78.512,118.13 122.037,156.06      78.512,193.986    "
+   id="polyline41" />
+			<polyline
+   fill="none"
+   stroke="#1B1464"
+   stroke-width="3"
+   stroke-miterlimit="10"
+   points="191.094,119.37 149.965,156.579      190.497,193.986    "
+   id="polyline43" />
+			
+				<line
+   fill="none"
+   stroke="#1B1464"
+   stroke-width="3"
+   stroke-miterlimit="10"
+   x1="150.282"
+   y1="156.68"
+   x2="119.952"
+   y2="156.68"
+   id="line45" />
+			<polygon
+   fill="#3DBBF2"
+   stroke="#1B1464"
+   stroke-width="3"
+   stroke-miterlimit="10"
+   points="159.247,148.062 150.282,156.293      122.037,156.06 91.235,128.758 91.235,89.506 179.233,89.506 179.233,130.29    "
+   id="polygon47" />
+			<polygon
+   fill="#6CFF64"
+   points="149.782,108.731 129.565,127.322 121.688,119.447 117.611,123.523 129.565,135.472      153.825,112.828    "
+   id="polygon49" />
+			
+				<line
+   fill="none"
+   stroke="#1B1464"
+   stroke-width="2"
+   stroke-miterlimit="10"
+   x1="222.684"
+   y1="186.564"
+   x2="207.45"
+   y2="186.564"
+   id="line51" />
+			
+				<line
+   fill="none"
+   stroke="#1B1464"
+   stroke-width="2"
+   stroke-miterlimit="10"
+   x1="242.294"
+   y1="196.447"
+   x2="198.852"
+   y2="196.447"
+   id="line53" />
+			<circle
+   stroke-miterlimit="10"
+   cx="215.065"
+   cy="167.93"
+   r="2.822"
+   id="circle55"
+   stroke="#EAEBEB"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+			<circle
+   stroke-miterlimit="10"
+   cx="229.236"
+   cy="159.658"
+   r="2.042"
+   id="circle57"
+   stroke="#EAEBEB"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+			
+				<line
+   fill="none"
+   stroke="#1B1464"
+   stroke-width="2"
+   stroke-miterlimit="10"
+   x1="63.564"
+   y1="196.447"
+   x2="20.123"
+   y2="196.447"
+   id="line59" />
+			
+				<line
+   fill="none"
+   stroke="#1B1464"
+   stroke-width="2"
+   stroke-miterlimit="10"
+   x1="52.076"
+   y1="186.564"
+   x2="36.844"
+   y2="186.564"
+   id="line61" />
+			
+				<line
+   fill="none"
+   stroke="#1B1464"
+   stroke-width="2"
+   stroke-miterlimit="10"
+   x1="35.326"
+   y1="186.564"
+   x2="29.875"
+   y2="186.564"
+   id="line63" />
+			<g
+   id="g67"
+   style="stroke:#424545;stroke-opacity:1">
+				<path
+   stroke-miterlimit="10"
+   d="M203.658,127.629c1.132-0.922,2.702-1.408,4.436-1.408      c3.449,0,6.244,2.795,6.244,6.242h0.219c0-3.447,2.796-6.242,6.243-6.242c1.593,0,3.045,0.41,4.148,1.191"
+   id="path65"
+   stroke="#E7E7E7"
+   fill="none"
+   style="stroke:#424545;stroke-opacity:1" />
+			</g>
+			<path
+   stroke-miterlimit="10"
+   d="M20.277,162.569"
+   id="path69"
+   stroke="#E7E7E7"
+   fill="none" />
+			
+				<line
+   fill="none"
+   stroke="#1B1464"
+   stroke-width="2"
+   stroke-miterlimit="10"
+   x1="18.577"
+   y1="196.447"
+   x2="13.125"
+   y2="196.447"
+   id="line71" />
+			
+				<line
+   fill="none"
+   stroke="#1B1464"
+   stroke-width="2"
+   stroke-miterlimit="10"
+   x1="229.484"
+   y1="186.564"
+   x2="224.033"
+   y2="186.564"
+   id="line73" />
+		</g>
+	</g>
+</g>
+<g
+   id="badge">
+</g>
+<g
+   id="lines_1_">
+</g>
+<g
+   id="lines">
+</g>
+<g
+   id="loading_shape_star">
+</g>
+</svg>

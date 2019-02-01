@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
 		<meta name="language" content="pt-br">
-		<!-- <link rel="icon" type="image/png" href=""> -->
+		<link rel="icon" type="image/png" href="favicon.png">
         <link rel="stylesheet" type="text/css" href="responsive_flex-grid.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
