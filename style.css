@@ -35,19 +35,14 @@ div.sendingFiles,div.savingFiles{
 }
 
 div.emails{
-    padding: 30px;
+    padding: 30px 30px 100px 30px;
 }
-div.emails > div.grid{
-    border: solid #b2b2b2;
-    border-width: 0 0 1px 0;
-    grid-auto-rows: 40px;
-    padding: 10px 0 0 0;
-}
-div.emails > div.grid > div{
+div.emails > div > div{
     border: solid #b2b2b2;
     border-width: 1px 0 0 0;
     display:flex;align-items: center;
-    height: 100%;
+    height: 40px;
+    width: 100%;
 }
 
 footer > div{
