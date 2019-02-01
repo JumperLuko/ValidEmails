@@ -4,11 +4,29 @@ if ($_FILES["fileToUpload"]["size"] > 500000) {
 }else{
     if ($_FILES['fileToUpload'] != NULL){
         $email = file_get_contents($_FILES['fileToUpload']['tmp_name']);
-        $email = filter_var($email, FILTER_SANITIZE_EMAIL);
-        if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            echo("VALID");
-        } else {
-            echo("NOT VALID");
+        // $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+        // if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        //     echo("VALID");
+        // } else {
+        //     echo("NOT VALID");
+        // }
+        function multiexplode ($delimiters,$string) {
+            $ready = str_replace($delimiters, $delimiters[0], $string);
+            $launch = explode($delimiters[0], $ready);
+            return  $launch;
+        }
+        
+        // $text = 'item1&&item2&item3';
+        // $email = '&Lorem@sunt.com ';
+        $words = multiexplode(array('&','&&','&&&','&&&&','&&&&&','&&&&&&','&&&&&&&','&&&&&&&&','&&&&&&&&&',' ','  ','   ',), $email);
+        
+        // $words = str_replace('&', '', $email);
+        // echo $words.'<br/>';
+
+        $contwords = count($words);
+        echo $contwords.'<br/>';
+        for ($num = 0; $num  != $contwords; $num++){
+            echo $words[$num].'<br/>';
         }
     }else{
         echo 'Null';
@@ -39,6 +57,19 @@ if ($_FILES["fileToUpload"]["size"] > 500000) {
 //     // die(header("Location: ".$_SERVER["HTTP_REFERER"]));
 // }else{
 //     echo 'Null';
+// }
+
+// function multiexplode ($delimiters,$string) {
+//     $ready = str_replace($delimiters, $delimiters[0], $string);
+//     $launch = explode($delimiters[0], $ready);
+//     return  $launch;
+// }
+
+// $text = 'item1&&item2&item3';
+// $words = multiexplode(array("&","&&","&&&","&&&&","&&&&&","&&&&&&","&&&&&&&","&&&&&&&&","&&&&&&&&&"), $text);
+
+// for ($num = 0; $words["$num"] == TRUE; $num++){
+//     echo $words["$num"].'<br/>';
 // }
 
 echo '<br/><br/><br/><a href="seeEmails.php">lista de emails</a>';
