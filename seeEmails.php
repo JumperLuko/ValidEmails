@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<?php require_once('head.php') ?> 
-		<title>Envie seu Email</title>
+		<title>Salve seu Email</title>
     </head>
     <?php
         if ($_FILES["fileToUpload"]["size"] > 500000) {
@@ -26,12 +26,22 @@
         }
     ?>
 	<body>
-		<div class="fcol-12 wrap" style="min-height: 100%;">
+		<div class="fcol-12 wrap" style="min-height: 100%; overflow-x: hidden;">
 			<div class="vcol-6 wrap emails saveFilesAnimation" id="saveFilesAnimation">
 				<h2 class="fcol-12 centerH CenterText" style="color:#4b4b4b;">Emails Válidos</h2>
 				<div class="fcol-12 centerH">
 					<form id="saveFilesForm" class="saveFilesForm" action="save.php" method="post">
-						<input type="hidden" id="emailsValidos"/>
+						<input type="hidden" name="emailsValidos" id="emailsValidos" value="<?php
+                            if (($_FILES["fileToUpload"]["size"] > 500000) != TRUE){
+                                // Loop Valid
+                                for ($num = 0; $num  != $contwords; $num++){
+                                    $email = filter_var($words[$num], FILTER_SANITIZE_EMAIL);
+                                    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                                        echo $words[$num].';';
+                                    }
+                                }
+                            }
+                        ?>"/>
 						<button id="saveFiles" class="saveFiles" onclick="saveInput('saveFilesAnimation')">Salvar</button>
 					</form>
 				</div>

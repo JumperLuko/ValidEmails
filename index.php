@@ -6,7 +6,7 @@
 	<body>
 		<div class="fcol-12" style="height: 100vh;width: 100%;overflow: hidden;">
 			<div class="fcol-12 center wrap send sendFilesAnimation" id="sendFilesAnimation">
-				<h2 class="fcol-12 centerH centerText" style="color:#4b4b4b;">Por favor envie seu arquivo com os emails.</h2>
+				<h2 class="fcol-12 centerH centerText" style="color:#4b4b4b;">Por favor envie seu arquivo TXT com os emails.</h2>
 				<form action="seeEmails.php" method="post" id="sendFilesForm" class="flex center wrap" enctype="multipart/form-data"> <!-- enctype="multipart/form-data" -->
 					<input type="file" name="fileToUpload" id="fileToUpload" required style="padding:10px;"/>
 					<button value="Enviar" id="sendFiles" class="sendFiles" onclick="sendInput('sendFilesAnimation')">Processar</button>
